@@ -36,7 +36,11 @@ public class BulletController : MonoBehaviour
 
         if (other.gameObject.tag == "Player" && damagePlayer)
         {
-            Debug.Log("Hit Player at " + transform.position);
+            PlayerHealthController phc = other.gameObject.GetComponent<PlayerHealthController>();
+            if (phc != null)
+                phc.TakeDamage(damage);
+            else
+                Debug.LogWarning("[BulletController] Player is missing PlayerHealthController component!");
         }
 
         Destroy(gameObject);                            //
