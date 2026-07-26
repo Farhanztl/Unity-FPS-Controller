@@ -1,7 +1,5 @@
 {
   "dependencies": {
-<<<<<<< Updated upstream
-=======
     "com.coplaydev.unity-mcp": {
       "version": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main",
       "depth": 0,
@@ -19,7 +17,6 @@
       },
       "hash": "c14de1e6dc01ab42d2bb358730cff954bce0ce6b"
     },
->>>>>>> Stashed changes
     "com.unity.ai.navigation": {
       "version": "1.1.6",
       "depth": 0,
@@ -97,8 +94,6 @@
         "com.unity.modules.uielements": "1.0.0"
       }
     },
-<<<<<<< Updated upstream
-=======
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.2.1",
       "depth": 1,
@@ -106,7 +101,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
->>>>>>> Stashed changes
     "com.unity.performance.profile-analyzer": {
       "version": "1.2.3",
       "depth": 1,
